@@ -695,10 +695,6 @@ img {
 /**/
 /* about us */
 /**/
-.padding-section {
-  /* margin-top: 90px; */
-}
-
 .title {
   margin-bottom: 40px;
   font-size: 54px;
@@ -784,6 +780,10 @@ dd {
   font-size: 15px;
   font-weight: 800;
 }
+.our-works-page {
+  position: absolute;
+}
+
 .grid-contact > i,
 .contact-page .contacts > div > i {
   position: absolute;
@@ -3357,7 +3357,6 @@ hr.divider-big {
 /**/
 .item-example {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .line {
@@ -3401,7 +3400,6 @@ hr.divider-big {
 .rectangle {
   position: relative;
   margin: auto;
-  margin-top: 50px;
   text-align: center;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
